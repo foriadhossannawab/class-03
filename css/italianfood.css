@@ -1,0 +1,602 @@
+/* font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Corinthia', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif; */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    width: 100%;
+    margin: auto;
+    background-color: rgb(46, 48, 52);
+    height: 695px;
+}
+
+#hero {
+    width: 100%;
+    overflow: hidden;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.menu {
+    overflow: hidden;
+    margin: 38px 55px 38px 0px;
+    height: 10%;
+    padding: 0 0px;
+}
+
+.menu ul {
+    width: 60%;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    float: right;
+    overflow: hidden;
+}
+
+.menu ul li {
+    margin-left: 70px;
+    float: left;
+}
+
+.menu ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Corinthia', cursive;
+    font-size: 25px;
+}
+
+.hero_body {
+    overflow: hidden;
+    height: 90%;
+    padding: 10px 0 0px 0;
+    margin: 0 0 0px 0;
+}
+
+.hero_left {
+    margin: 80px 0px 0px;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.hero_right {
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+.hero_right img {
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: -14px;
+}
+
+.logo {
+    margin: 20px 100px;
+    padding: 20px 40px 0px;
+}
+
+.logo a {}
+
+.logo a img {
+    width: 20%;
+}
+
+.info {}
+
+.info {
+    margin: -15px 70px 45px 40px;
+    padding: 0px 0px 0px 65px;
+}
+
+.info h1 {
+    padding: 0px 35px;
+    margin-bottom: -8px;
+    color: rgb(255, 255, 255);
+    font-family: 'Corinthia', cursive;
+    font-size: 80px;
+}
+
+.info h3 {
+    padding: 0px 80px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    font-family: 'Playfair Display', serif;
+}
+
+.info button {
+    padding: 8px 20px;
+    margin: 22px 90px 10px;
+    background: rgb(235, 235, 235);
+    border-radius: 20px;
+    color: rgb(46, 48, 52);
+    text-transform: uppercase;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.info p {
+    margin: 12px 65px;
+    padding: 0 5px;
+    width: 55%;
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.lorem {
+    text-align: center;
+    margin: auto;
+    padding: 50px 50px 0px 50px;
+    width: 80%;
+}
+
+.lorem h1 {
+    padding-bottom: 3px;
+    font-size: 50px;
+    font-family: 'Corinthia', cursive;
+}
+
+.lorem p {
+    padding-top: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.item {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.item_one {
+    width: 30%;
+    float: left;
+}
+
+.item_one img {
+    width: 100%;
+}
+
+.item_one h3 {
+    color: rgb(52, 52, 52);
+    margin: auto;
+    padding: 0px 70px;
+}
+
+.item_one p {
+    color: rgb(179, 179, 179);
+    font-size: 20px;
+    text-align: center;
+}
+
+.item_two {
+    width: 30%;
+    float: left;
+}
+
+.item_two img {}
+
+.item_two h3 {
+    color: rgb(52, 52, 52);
+    margin: auto;
+    padding: 23px 70px 0px;
+}
+
+.item_two p {
+    color: rgb(179, 179, 179);
+    margin: auto;
+    padding: 5px 70px;
+}
+
+.item_three {
+    width: 30%;
+    float: left;
+}
+
+.item_three img {}
+
+.item_three h3 {
+    color: rgb(52, 52, 52);
+    margin: auto;
+    padding: 0px 70px;
+}
+
+.item_three p {
+    color: rgb(179, 179, 179);
+    margin: auto;
+    padding: 5px 70px;
+}
+
+.showmore {
+    width: 25%;
+    margin: auto;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.showmore button {
+    padding: 15px 70px;
+    border-radius: 100px;
+    border: 3px solid;
+    background-color: rgb(52, 52, 52);
+}
+
+.showmore button h3 {
+    color: #ffffff;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.ipsum {
+    background-color: #27292c;
+    color: #ffffff;
+    width: 100%;
+}
+
+.ipsum_content {
+    width: 65%;
+    margin: auto;
+}
+
+.ipsum_head {
+    width: 50%;
+    margin: auto;
+    padding: 25px 0 20px 50px;
+}
+
+.ipsum_head h1 {
+    font-size: 60px;
+    font-family: 'Corinthia', cursive;
+}
+
+.ipsum_body {
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+.ipsum_body_left p {
+    float: left;
+    width: 45%;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ipsum_body_right p {
+    float: right;
+    width: 45%;
+    font-size: 15px;
+}
+
+.ipsum_foot {
+    width: 40%;
+    margin: auto;
+    padding: 0px 0 40px 0;
+}
+
+.ipsum_foot button {
+    padding: 10px 65px;
+    border-radius: 100px;
+    border: 3px solid;
+    background-color: rgb(52, 52, 52);
+    color: #ffffff;
+    text-transform: capitalize;
+    font-size: 25px;
+    margin: 19px 0 0 50px;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.discount {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 40px 0;
+}
+
+.discount_content {
+    float: left;
+    width: 50%;
+    margin: 130px 0 0 0;
+}
+
+.discount_content h2 {
+    color: rgb(52, 52, 52);
+    margin: auto;
+    font-size: 40px;
+    padding: 5px 70px;
+    font-family: 'Playfair Display', serif;
+}
+
+.discount_content p {
+    color: rgb(179, 179, 179);
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    padding: 5px 70px;
+}
+
+.discount_content button {
+    padding: 10px 65px;
+    border-radius: 100px;
+    border: 3px solid;
+    background-color: rgb(52, 52, 52);
+    color: #ffffff;
+    text-transform: capitalize;
+    font-size: 25px;
+    margin: 19px 0 0 50px;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.discount_image {
+    float: right;
+    width: 50%;
+}
+
+.discount_image img {
+    width: 100%;
+}
+
+.promo {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.promo_content {
+    float: right;
+    width: 50%;
+    margin: 130px 0 0 0;
+}
+
+.promo_content h2 {
+    color: rgb(52, 52, 52);
+    margin: auto;
+    font-size: 40px;
+    padding: 5px 70px;
+    font-family: 'Playfair Display', serif;
+}
+
+.promo_content p {
+    color: rgb(179, 179, 179);
+    margin: auto;
+    padding: 5px 70px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.promo_content button {
+    padding: 10px 65px;
+    border-radius: 100px;
+    border: 3px solid;
+    background-color: rgb(52, 52, 52);
+    color: #ffffff;
+    text-transform: capitalize;
+    font-size: 25px;
+    margin: 19px 0 0 50px;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.promo_image {
+    float: left;
+    width: 50%;
+}
+
+.promo_image img {
+    width: 100%;
+}
+
+.sit {
+    width: 100%;
+    background-color: #27292c;
+}
+
+.sit h1 {
+    padding: 40px 340px 15px;
+    font-size: 60px;
+    color: #ffffff;
+    font-family: 'Corinthia', cursive;
+}
+
+.sit p {
+    padding: 0 450px 40px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.item {
+    width: 70%;
+    padding: 100px 0px 19px 140px;
+    overflow: hidden;
+}
+
+.item_one {
+    float: left;
+    width: 30%;
+    /* padding: 0 0 23px 0; */
+}
+
+.item_one h3 {
+    color: #3f3f3f;
+    font-size: 32px;
+    font-family: 'Corinthia', cursive;
+    padding-bottom: 10px;
+}
+
+.item_one p {
+    color: #3f3f3f;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.dolor {
+    text-align: center;
+    padding: 35px 375px;
+}
+
+.dolor p {
+    color: #3f3f3f;
+    padding-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.dolor h3 {
+    color: #3f3f3f;
+    font-size: 60px;
+    font-family: 'Corinthia', cursive;
+}
+
+.title {
+    background-color: #27292c;
+    padding: 151px 0;
+}
+
+.title p {
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    padding: 7px 451px;
+}
+
+.title h3 {
+    font-size: 40px;
+    color: #ffffff;
+    padding: 0 550px;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 45px;
+}
+
+.title input {
+    border: 1px solid;
+    background-color: rgb(52, 52, 52);
+    color: #ffffff;
+    text-transform: capitalize;
+    padding: 1px 0px;
+    font-size: 25px;
+    border-radius: 50px;
+    text-align: center;
+    margin-left: 40px;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+footer {
+    background-color: #ffffff;
+    color: #27292c;
+    width: 80%;
+    margin: auto;
+}
+
+.footer_content {
+    margin: auto;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.footer_body {
+    float: right;
+    overflow: hidden;
+    padding: 0 85px;
+}
+
+.footer_title {
+    width: 40%;
+    float: left;
+    padding: 0 0px;
+}
+
+.footer_title h1 {
+    padding: 0 0px;
+    text-transform: capitalize;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 30px;
+}
+
+.footer_title p {
+    padding: 8px 100px 42px 10px;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer_title ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+.footer_title ul li {
+    float: left;
+    margin-right: 30px;
+}
+
+.footer_title ul li a {
+    color: #27292c;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    /* font-family: 'Open Sans', sans-serif; */
+}
+
+.about {
+    width: 20%;
+    float: right;
+    padding: 0px 60px;
+}
+
+.about h1 {
+    padding: 0 0px;
+    text-transform: capitalize;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 30px;
+}
+
+.about ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-transform: capitalize;
+}
+
+.about ul li {
+    margin-right: 0px;
+}
+
+.about ul li a {
+    color: #27292c;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.other {
+    width: 20%;
+    float: right;
+}
+
+.other h1 {
+    padding: 0 0px;
+    text-transform: capitalize;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 30px;
+}
+
+.other ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-transform: capitalize;
+}
+
+.other ul li {
+    margin-right: 30px;
+}
+
+.other ul li a {
+    color: #27292c;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}

@@ -1,0 +1,408 @@
+/* font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif; 
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(3, 119, 252);
+}
+
+header {
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+}
+
+.logo {
+    width: 30%;
+    height: 100%;
+    float: left;
+    padding: 0px 0px 0px 0px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.meanu {
+    width: 60%;
+    height: 100%;
+    float: right;
+    overflow: hidden;
+    padding: 75px 85px 0px 0px;
+}
+
+.meanu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    float: right;
+}
+
+.meanu ul li {
+    margin-left: 70px;
+    float: left;
+}
+
+.meanu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    color: #ffffff;
+}
+
+.banner {
+    width: 100%;
+    height: 500px;
+    padding: 50px 0;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.item01 {
+    overflow: hidden;
+    width: 90%;
+    margin: auto;
+}
+
+.item01_left {
+    width: 50%;
+    float: left;
+}
+
+.item01_left h1 {}
+
+.item01_left p {}
+
+.item01_right {
+    width: 50%;
+    float: right;
+}
+
+.item01_right img {
+    width: 100%;
+    height: 100%;
+}
+
+.item02 {
+    overflow: hidden;
+    width: 90%;
+    margin: auto;
+}
+
+.item02_left {
+    width: 50%;
+    float: left;
+}
+
+.item02_left img {
+    width: 100%;
+    height: 100%;
+}
+
+.item02_right {
+    width: 50%;
+    float: right;
+}
+
+.item02_right h1 {}
+
+.item02_right p {}
+
+footer {
+    padding: 40px 0;
+    /* background-color: #f0f0f0; */
+}
+
+.footer_content {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.terms {
+    width: 30%;
+    float: left;
+}
+
+.terms ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+.terms ul li {
+    float: left;
+    margin-right: 30px;
+}
+
+.terms ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+}
+
+.social_link {
+    width: 40%;
+    float: right;
+    overflow: hidden;
+}
+
+.social_link ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+    overflow: hidden;
+}
+
+.social_link ul li {
+    float: left;
+    margin-left: 30px;
+}
+
+.social_link ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+}
+
+
+/* font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    /* padding: 40px 0; */
+    /* background-color: #056608; */
+}
+
+.logo {
+    width: 30%;
+    height: 100%;
+    float: left;
+    padding: 0px 0px 0px 0px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.meanu {
+    width: 60%;
+    height: 100%;
+    float: right;
+    overflow: hidden;
+    padding: 75px 85px 0px 0px;
+}
+
+.meanu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    float: right;
+}
+
+.meanu ul li {
+    margin-left: 70px;
+    float: left;
+}
+
+.meanu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    /* font-family: 'Playfair Display', serif; */
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+    color: #ffffff;
+}
+
+.banner {
+    width: 100%;
+    height: 500px;
+    padding: 50px 0;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.item01 {
+    overflow: hidden;
+    width: 90%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.item01_left {
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.item01_left h1 {
+    color: #ffffff;
+    font-size: 110px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.item01_left button {
+    color: #ffffff;
+    background: transparent;
+    padding: 18px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.item01_left button a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+    color: #ffffff;
+}
+
+.item01_right {
+    width: 50%;
+    float: right;
+}
+
+.item01_right img {
+    width: 100%;
+    height: 100%;
+    border-radius: 35%;
+}
+
+.item02 {
+    overflow: hidden;
+    width: 90%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.item02_left {
+    width: 50%;
+    float: left;
+}
+
+.item02_left img {
+    width: 100%;
+    height: 100%;
+    border-radius: 35%;
+}
+
+.item02_right {
+    width: 50%;
+    float: right;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.item02_right h1 {
+    color: #ffffff;
+    font-size: 110px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.item02_right button {
+    color: #ffffff;
+    background: transparent;
+    padding: 18px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.item02_right button a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+    color: #ffffff;
+}
+
+footer {
+    padding: 40px 0;
+    /* background-color:#f0f0f0; */
+}
+
+.footer_content {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.terms {
+    width: 30%;
+    float: left;
+}
+
+.terms ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+.terms ul li {
+    float: left;
+    margin-right: 30px;
+}
+
+.terms ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 15px;
+}
+
+.social_link {
+    width: 40%;
+    float: right;
+    overflow: hidden;
+}
+
+.social_link ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+    overflow: hidden;
+}
+
+.social_link ul li {
+    float: left;
+    margin-left: 30px;
+}
+
+.social_link ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Alfa Slab One', cursive;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-size: 15px;
+}

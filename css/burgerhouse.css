@@ -1,0 +1,467 @@
+/* font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #3d2514;
+}
+
+header {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    padding: 15px 0;
+    background-color: #ffc657;
+}
+
+.logo {
+    width: 20%;
+    float: left;
+    padding: 25px 115px;
+}
+
+.menu {
+    width: 60%;
+    float: right;
+    overflow: hidden;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0 50px;
+    list-style: none;
+    overflow: hidden;
+    float: right;
+}
+
+.menu ul li {
+    margin-left: 10px;
+    float: left;
+    padding: 45px 22px;
+}
+
+.menu ul li a {
+    color: #3d2514;
+    text-decoration: none;
+    text-transform: uppercase;
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+.banner {
+    margin: 0 0 -135px 0;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.item_sec {
+    width: 30%;
+    margin: auto;
+    padding: 0 0 0 112px;
+}
+
+.item_sec h1 {
+    font-size: 45px;
+    padding: 15px 5px;
+    margin: 0 34px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+}
+
+.burger_item {
+    width: 90%;
+    overflow: hidden;
+    margin: auto;
+    padding: 10px 0;
+}
+
+.burger_item_one {
+    width: 40%;
+    float: left;
+    /*  */
+    padding: 0px 30px;
+}
+
+.burger_item_one h1 {
+    width: 100%;
+    background-image: url(../images/burgerhouse/burger01.png);
+}
+
+.burger_item_two {
+    width: 40%;
+    float: right;
+    padding: 0 30px;
+}
+
+.top {
+    padding: 0 0 15px 0;
+}
+
+.bottom {
+    padding: 15px 0 0 0;
+    VARIANT: JIS04;
+    FONT-VARIANT: JIS04;
+}
+
+.tasty {
+    width: 70%;
+    margin: auto;
+    padding: 40px 0;
+}
+
+.tasty button {
+    padding: 8px 0px;
+    margin: 2px 390px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.tasty h1 {
+    padding: 10px 318px;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tasty p {
+    padding: 0 137px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.lorem {
+    width: 75%;
+    overflow: hidden;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.lorem_item_one {
+    width: 30%;
+    float: left;
+    padding: 0 0 0 18px;
+}
+
+.lorem_item_one img {
+    width: 100%;
+}
+
+.lorem_item_one h2 {
+    padding: 0 62px;
+    color: #3d2514;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+}
+
+.lorem_item_one p {
+    padding: 5px 64px;
+    font-size: 15px;
+    color: #3d2514;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.lorem_item_one button {
+    padding: 2px 10px;
+    margin: 0 108px;
+    color: #3d2514;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+    margin: 15px 95px;
+}
+
+.discover {
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+    padding: 45px 0px;
+}
+
+.discover_item_one {
+    width: 45%;
+    float: left;
+    padding: 0 25px;
+}
+
+.discover_item_one img {
+    width: 100%;
+}
+
+.discover_item_one h1 {
+    font-size: 40px;
+    padding: 5px 140px;
+}
+
+.discover_item_one h2 {
+    padding: 0 120px;
+    font-size: 25px;
+    color: #3d2514;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.discover_item_one p {
+    padding: 10px 99px;
+    font-size: 15px;
+    color: #3d2514;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.discover_item_one button {
+    padding: 4px 11px;
+    margin: 10px 175px;
+    color: #3d2514;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+.event {
+    width: 95%;
+    overflow: hidden;
+    margin: auto;
+    padding: 45px 0px;
+    background-color: #ffc657;
+    border-radius: 21%;
+}
+
+.event_item_one {
+    width: 45%;
+    float: right;
+    padding: 25px 25px;
+    border-radius: 40%;
+}
+
+.event_item_one h1 {
+    padding: 5px 100px;
+    font-size: 50px;
+    color: #3d2514;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.event_item_one h2 {
+    font-size: 28px;
+    padding: 5px 125px;
+    color: #3d2514;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.event_item_one p {
+    padding: 11px 70px;
+    color: #3d2514;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.event_item_one button {
+    padding: 15px 39px;
+    margin: 15px 165px;
+    background: transparent;
+    color: #3d2514;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+.event_item_two {
+    width: 45%;
+    float: right;
+    padding: 10px 25px;
+}
+
+.event_item_two img {
+    width: 100%;
+    border-radius: 25%;
+}
+
+.reservation {
+    width: 100%;
+    background-image: url(../images/burgerhouse/burger08.png);
+    background-repeat: no-repeat;
+    padding: 180px 0 220px;
+}
+
+.reservation_content {
+    /* padding: 0px 0; */
+    margin: 2px 0;
+    width: 50%;
+    margin: auto;
+}
+
+.reservation_content h1 {
+    text-transform: uppercase;
+    color: #3d2514;
+    padding: 15px 43px;
+    border-radius: 42%;
+    margin: 0px 160px;
+    background: #b0342e;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.reservation_content input {
+    text-transform: capitalize;
+    color: #3d2514;
+    margin: 15px 131px;
+    text-size-adjust: auto;
+    padding: 0 0px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.reservation_content h2 {
+    text-transform: capitalize;
+    /* border: 1px solid; */
+    margin: 6px 260px;
+    text-align: center;
+    /* background: #797f00; */
+    /* border-radius: 38%; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+.reservation_submit {
+    padding: 10px 550px;
+    margin: 0px 0;
+}
+
+.reservation_submit button {
+    padding: 15px 75px;
+    background: #ffc657;
+    text-transform: uppercase;
+    border-radius: 37%;
+    font-size: 30px;
+    margin: 0 4px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer {
+    width: 95%;
+    background-image: url(../images/burgerhouse/footer.png);
+    margin: auto;
+}
+
+.footer_content {
+    margin: auto;
+    overflow: hidden;
+    padding: 0px 10px;
+    margin: 30px 0 0 0;
+}
+
+.footer_body {
+    width: 65%;
+    float: right;
+    overflow: hidden;
+    padding: 60px 45px;
+    margin: 15px -478px;
+}
+
+.footer_title {
+    width: 40%;
+    float: left;
+    padding: 0px 110px;
+    margin: 80px 0px 80px 56px;
+}
+
+.footer_title h1 {
+    padding: 0px 0;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+}
+
+.footer_title p {
+    padding: 8px 100px 42px 10px;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+.footer_title ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+.footer_title ul li {
+    float: left;
+    margin-right: 30px;
+}
+
+.footer_title ul li a {
+    color: #ffffff;
+    background: #000000;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.about {
+    width: 20%;
+    float: left;
+    padding: 0px 0px;
+    /* background: yellowgreen; */
+}
+
+.about h1 {
+    padding: 0 0px;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+}
+
+.about ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-transform: capitalize;
+}
+
+.about ul li {
+    margin-right: 30px;
+}
+
+.about ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.other {
+    width: 20%;
+    float: left;
+}
+
+.other h1 {
+    padding: 0 0px;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+}
+
+.other ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-transform: capitalize;
+}
+
+.other ul li {
+    margin-right: 30px;
+}
+
+.other ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
